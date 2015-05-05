@@ -71,7 +71,7 @@ var editors = {
   }),
   html: new Editor({
     className: 'html',
-    mode: 'markdown',
+    mode: 'text/html',
     container: editorPane,
     value: restoreDoc.html || ''
   })
