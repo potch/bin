@@ -96,7 +96,8 @@ run();
 function save() {
   var doc = {
     javascript: editors.javascript.value(),
-    css: editors.css.value()
+    css: editors.css.value(),
+    html: editors.html.value()
   };
   localStorage.setItem('current', JSON.stringify(doc));
 }
