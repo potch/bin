@@ -118,7 +118,7 @@ function run() {
         <link rel="stylesheet" href="${cssURL}">
       </head>
       <body>
-        ${marked(html)}
+        ${html}
         <script>
           window.onerror = function (msg, file, line, col, error) {
             window.top.postMessage({
