@@ -26,6 +26,10 @@ body, html {
   position: relative;
 }
 
+.editors {
+  overflow: hidden;
+}
+
 .editor {
   height: 100%;
 }

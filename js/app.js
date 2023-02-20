@@ -115,6 +115,7 @@ function run() {
   );
   var cssURL = URL.createObjectURL(new Blob([css], { type: "text/css" }));
   var doc = `
+    <!DOCTYPE html>
     <html>
       <head>
         <meta charset=utf8>
